@@ -1,0 +1,14 @@
+// global
+@use "global/global.scss";
+@use "global/fonts.scss";
+@use "global/description.scss";
+@use "global/link.scss";
+@use "global/list.scss";
+@use "global/title.scss";
+@use "global/variables.scss";
+@use "global/visually-hidden.scss";
+@use "global/wrapper.scss";
+
+// blocks
+@use "blocks/page.scss";
+@use  "blocks/quotes.scss";
