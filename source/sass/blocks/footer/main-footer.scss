@@ -1,0 +1,9 @@
+@use "../../global/variables.scss";
+
+.main-footer__wrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  border-top: 2px solid variables.$color-primary;
+}

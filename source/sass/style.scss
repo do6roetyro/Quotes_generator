@@ -11,4 +11,17 @@
 
 // blocks
 @use "blocks/page.scss";
-@use  "blocks/quotes.scss";
+
+// header
+@use "blocks/header/main-nav.scss";
+@use "blocks/header/main-header.scss";
+
+
+// main
+@use  "blocks/main/quotes.scss";
+@use  "blocks/main/hero.scss";
+@use "blocks/main/main-container.scss";
+
+// footer
+@use "blocks/footer/main-footer.scss";
+@use "blocks/footer/copyright-link.scss";

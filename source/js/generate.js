@@ -17,6 +17,7 @@ function generateQuote() {
   function getTwoConsecutiveSentences(element) {
     const sentences = element.textContent
       .replace(/\(\d+\)/g, "")
+      .replace(/\d+/g, "")
       .split(/[.!?]/)
       .filter(function (sentence) {
         return sentence.trim() !== "";

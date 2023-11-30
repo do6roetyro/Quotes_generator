@@ -6,13 +6,12 @@
 
 .page__body {
   height: 100%;
-  font-family: variables.$font-PlayfairDisplay;
-  letter-spacing: 0.2px;
+  font-family: variables.$font-RobotoSlab;
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.5rem;
-  color: #000000;
+  color: variables.$color-primary;
   margin: 0;
   text-wrap: balance;
   min-height: 100%;
@@ -24,5 +23,5 @@
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  background-color: #ffffff;
+  background-color: variables.$color-bg;
 }

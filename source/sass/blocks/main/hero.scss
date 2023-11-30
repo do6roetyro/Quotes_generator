@@ -1,0 +1,41 @@
+@use "../../global/variables.scss";
+
+.hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1.5rem;
+}
+
+.hero__title {
+  font-family: variables.$font-VinaSans;
+  font-size: clamp(2rem, 7vw, 4rem);
+  line-height: clamp(2rem, 7vw, 4rem);
+  padding: 1.5rem 0;
+}
+
+.hero__button {
+  padding: 1rem;
+  border: 2px solid variables.$color-primary;
+  border-radius: 8px;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-family: variables.$font-RobotoSlab;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  font-size: clamp(0.2rem, 5vw, 1rem);
+  width: 33vw;
+
+  @media (hover: hover) and (pointer: fine) {
+    &:hover {
+      transition: opacity 0.15s;
+      opacity: 0.7;
+    }
+
+    &:active {
+      transition: 0.15s;
+      transform: translate(0, 2px);
+    }
+  }
+
+}

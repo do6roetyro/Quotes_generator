@@ -1,7 +1,7 @@
 {
-  "name": "sedona-29",
+  "name": "qoute-generator",
   "private": true,
-  "description": "Личный проект «Седона» от HTML Academy",
+  "description": "Генератор цитат по книге Луция Анея Сенеки 'Нравственные письма к Луцилию'",
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "1.0.0",
     "autoprefixer": "10.4.0",

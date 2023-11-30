@@ -1,0 +1,6 @@
+@use "../../global/variables.scss";
+
+.main-header {
+  border-bottom: 2px solid variables.$color-primary;
+  margin-bottom: 1.5rem;
+}
